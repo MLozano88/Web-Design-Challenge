@@ -1,1 +1,60 @@
-"html file for hw"
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+	<title>Climate Analysis Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <ul class="nav nav-pills float-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle"
+                 data-toggle="dropdown"
+                 href="#">
+                  Plots
+                  <b class="caret"></b>
+                </a>
+              <ul class="dropdown-menu">
+                <!-- links -->
+              </ul>
+              <li class="active">
+                <a href="#">Comparisons</a>
+              </li>
+              <li class="active">
+                <a href="#">Data</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h1> Summary: Latitude vs. X</h1>
+                <p> 
+                The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                </p>
+                <br>
+                <p>
+                After Assembling the dataset, we used Matplotlib to plot various aspecs of the weather vs. latitude. Factors we looked at included:
+                temperature, cloudiness, wind speed, and humidity. This site provides teh source data and visualizations created as part of the analysis,
+                as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+              <h2>Visualizations</h2>
+              <img src="C:\Users\Mariol176\Desktop\Web-Design-Challenge\Resources\assets\images\Fig1.png" style="width:250px;height:150px;">
+              <img src="C:\Users\Mariol176\Desktop\Web-Design-Challenge\Resources\assets\images\Fig2.png" style="width:250px;height:150px;">
+              <img src="C:\Users\Mariol176\Desktop\Web-Design-Challenge\Resources\assets\images\Fig3.png" style="width:250px;height:150px;">
+              <img src="C:\Users\Mariol176\Desktop\Web-Design-Challenge\Resources\assets\images\Fig4.png" style="width:250px;height:150px;">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
